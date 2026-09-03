@@ -1353,3 +1353,45 @@ footer {
 ```
 
 }
+
+
+body,
+main,
+section,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+li {
+    color: var(--text);
+}
+
+p {
+    color: var(--text-muted);
+}
+
+a {
+    color: var(--text);
+}
+
+.nav-links a {
+    color: var(--text-muted);
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: var(--text);
+}
+
+.card p,
+.about-content p,
+.project-content > p,
+.resume-item p,
+.resume-skills p {
+    color: var(--text-muted);
+}
